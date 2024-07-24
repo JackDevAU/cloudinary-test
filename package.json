@@ -9,16 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.2.4",
+    "@tinacms/auth": "^1.0.6",
+    "next": "^14.2.5",
+    "next-tinacms-cloudinary": "0.0.0-20240724035349",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tinacms": "^1.6.4",
+    "tinacms": "^2.0.0",
     "typescript": "5.5.2"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.5.46",
-    "@types/node": "^20.14.9",
-    "eslint": "^8.0.0",
-    "eslint-config-next": "^14.2.4"
+    "@tinacms/cli": "^1.5.50",
+    "@types/node": "^20.14.12",
+    "eslint": "^9.7.0",
+    "eslint-config-next": "^14.2.5"
   }
 }

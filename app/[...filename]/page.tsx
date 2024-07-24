@@ -20,6 +20,6 @@ export default async function Page({
   });
 
   return (
-    <ClientPage {...data}></ClientPage>
+    <ClientPage {...data} />
   );
 }
