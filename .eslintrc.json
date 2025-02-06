@@ -3,6 +3,10 @@
         "browser": true,
         "node": true
     },
+        "extends": [
+        "eslint:recommended",
+        "next"
+    ],
     "rules": {
     "padding-line-between-statements": [
       "error",
